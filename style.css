@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  max-width: 100vW;
 }
 .page1{
   display: flex;
@@ -12,6 +11,7 @@
 #hall1{
   object-fit: contain;
   max-height: 90vh;
+  max-width: 90vw;
   position: relative;
   z-index: 1;
   opacity: 1;
@@ -112,4 +112,52 @@
   33%{opacity: 0;}
   66%{opacity: 1;}
   100%{opacity: 0;}
+}
+.page4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+#upperhallway1{
+  object-fit: contain;
+  max-height: 90vh;
+  max-width: 90vw;
+  position: relative;
+}
+.page5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+.page6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+.page7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+.page8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+.page9{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  min-height: 100vh;
 }
