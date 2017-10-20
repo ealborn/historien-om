@@ -1,18 +1,47 @@
 *{
   margin: 0;
+  padding: 1vh;
+  max-width: 100vW;
+  background-color: #F0F0F0;
+}
+
+p{
+  font-family: "Chalkduster", fantasy, sans-serif;
+  padding: 4vh;
+  text-align: center;
+  font-size: 2.2vh;
+  width: 80vh;
+  voice-family: male;
+  richness: 80;
 }
 .page1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;        /*Make the pages display on individual screen*/
+  height: 100vh;
+}
+.page1 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+    max-height: 70vh;
+}
+.page2 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+    max-height: 70vh;
+}
+.page3 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+    max-height: 70vh;
+}
+.page4 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+    max-height: 70vh;
+}
+.page5 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+  max-height: 70vh;
 }
 #hall1{
-  object-fit: contain;
-  max-height: 90vh;
-  max-width: 90vw;
-  position: relative;
+  position: absolute;
   z-index: 1;
   opacity: 1;
   animation-name: openDoor;
@@ -20,26 +49,16 @@
   animation-iteration-count: infinite;
 }
 #hall2{
-  max-height: 90vh;
-  position: absolute;
   z-index: 0;
-}
-#page1Text{
-  max-width: 80vW;
-  padding: 2vh;
-  text-align: center;
-  font-size: 2vh;
 }
 .page2{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 100vh;
+  height: 100vh;
 }
 #livingroom1{
-  object-fit: contain;
-  max-height: 90vh;
-  position: relative;
+  position: absolute;
   z-index: 1;
   opacity: 1;
   animation-name: openDoor;
@@ -47,15 +66,7 @@
   animation-iteration-count: infinite;
 }
 #livingroom2{
-  max-height: 90vh;
-  position: absolute;
   z-index: 0;
-}
-#page2Text{
-  max-width: 80vW;
-  padding: 2vh;
-  text-align: center;
-  font-size: 2vh;
 }
 @keyframes openDoor{
   0%{opacity: 1;}
@@ -66,19 +77,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 100vh;
+  height: 100vh;
 }
 #kitchen1{
-  object-fit: contain;
-  max-height: 90vh;
-  position: relative;
+  position: absolute;
   z-index: 2;
   animation-name: kitchen;
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 #kitchen2{
-  max-height: 90vh;
   position: absolute;
   z-index: 1;
   opacity: 1;
@@ -87,8 +95,7 @@
   animation-iteration-count: infinite;
 }
 #kitchen3{
-  max-height: 90vh;
-  position: absolute;
+  position: relative;
   z-index: 0;
   opacity: 1;
   animation-name: getRedYarn;
@@ -113,51 +120,54 @@
   66%{opacity: 1;}
   100%{opacity: 0;}
 }
+
 .page4{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
+  height: 100vh;
 }
-#upperhallway1{
-  object-fit: contain;
-  max-height: 90vh;
-  max-width: 90vw;
+#upper_hall1{
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  animation-name: openDoor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#upper_hall2{
+  z-index: 0;
   position: relative;
 }
 .page5{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
+  height: 100vh;
 }
-.page6{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
+#bedroom1{
+  position: absolute;
+  z-index: 2;
+  animation-name: kitchen;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
-.page7{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
+#bedroom2{
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  animation-name: openKitchenDoor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
-.page8{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
+#bedroom3{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  animation-name: getRedYarn;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
-.page9{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 100vh;
-  min-height: 100vh;
+@media screen and (max-width: 500px) {
+
 }
