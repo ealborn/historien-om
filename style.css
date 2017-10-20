@@ -7,10 +7,10 @@
 
 p{
   font-family: "Chalkduster", "Handlee", fantasy, sans-serif;
-  padding: 4vh;
+  padding: 3vh;
   text-align: center;
   font-size: 2.2vh;
-  width: 80vh;
+  width: 90vh;
 }
 
 .startPage{
@@ -25,41 +25,41 @@ p{
   align-items: center;
   height: 100vh;
 }
-.page1 img{
+img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 70vh;
+    max-height: 65vh;
 }
 .page2 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 70vh;
+    max-height: 65vh;
 }
 .page3 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 70vh;
+    max-height: 65vh;
 }
 .page4 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 70vh;
+    max-height: 65vh;
 }
 .page5 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 70vh;
+  max-height: 65vh;
 }
 .page6 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 70vh;
+  max-height: 65vh;
 }
 .page7 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 70vh;
+  max-height: 65vh;
 }
 .page8 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 70vh;
+  max-height: 65vh;
 }
 .startPage img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 70vh;
+  max-height: 65vh;
 }
 #hall1{
   position: absolute;
@@ -249,7 +249,4 @@ p{
 #vase2{
   opacity: 1;
   z-index: 0;
-}
-@media screen and (max-width: 500px) {
-
 }
