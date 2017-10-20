@@ -40,6 +40,18 @@ p{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
   max-height: 70vh;
 }
+.page6 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+  max-height: 70vh;
+}
+.page7 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+  max-height: 70vh;
+}
+.page8 img{
+  box-shadow: 1vh 1vh 1vh 1vh #888888;
+  max-height: 70vh;
+}
 #hall1{
   position: absolute;
   z-index: 1;
@@ -120,7 +132,6 @@ p{
   66%{opacity: 1;}
   100%{opacity: 0;}
 }
-
 .page4{
   display: flex;
   flex-direction: column;
@@ -167,6 +178,69 @@ p{
   animation-name: getRedYarn;
   animation-duration: 6s;
   animation-iteration-count: infinite;
+}
+.page6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+#attic1{
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  animation-name: openDoor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#attic2{
+  z-index: 0;
+}
+.page7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+#cabinet1{
+  position: absolute;
+  z-index: 2;
+  animation-name: kitchen;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+#cabinet2{
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  animation-name: openKitchenDoor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+#cabinet3{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  animation-name: getRedYarn;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+.page8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+#vase1{
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  animation-name: openDoor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#vase2{
+  z-index: 0;
 }
 @media screen and (max-width: 500px) {
 

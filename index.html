@@ -7,7 +7,7 @@
   <title>Historien om någon</title>
 </head>
 <body class="container">
-  <section class="page1" onclick="document.getElementById('page2').scrollIntoView({behavior: 'smooth'});">
+  <section class="page1" onclick="document.getElementById('page2').scrollIntoView({behavior: 'smooth'});" id="page1">
     <img src="resorces/hall.jpg" id="hall1">
     <img src="resorces/hallopen.jpg" id="hall2">
     <p id="page1Text">
@@ -45,7 +45,7 @@
   <section class="page4" onclick="document.getElementById('page5').scrollIntoView({behavior: 'smooth'});" id="page4">
     <img src="resorces/upper_hallway_col.jpg" id="upper_hall1">
     <img src="resorces/upper_hallway_fishin_red.jpg" id="upper_hall2">
-    <p id="page3Text">
+    <p id="page4Text">
       …uppför trappan till över våningen.
       Oh, en sån olycka! Här har också någon varit framme! Den ena guldfisken
       har kommit ur akvariet och hamnat på bordet. Där ligger han nu och
@@ -53,11 +53,11 @@
       Vem kan ha varit här?
     </p>
   </section>
-  <section class="page5" id="page5">
+  <section class="page5" onclick="document.getElementById('page6').scrollIntoView({behavior: 'smooth'});" id="page5">
     <img src="resorces/bedroom.jpg" id="bedroom1">
     <img src="resorces/bedroom_color.jpg" id="bedroom2">
     <img src="resorces/bedroom_color_red.jpg" id="bedroom3">
-    <p id="page4Text">
+    <p id="page5Text">
       Någon har ställt till en väldig röra på golvet – han har dragit ner en
       blomkruka så att den har gått i tusen bitar. –Nej, nu måste vi snart ha
       fatt på honom. Upp för en trappa till – raska på!
@@ -65,8 +65,9 @@
       kommer ut på andra sidan – vad tror du vi får se?
     </p>
   </section>
-  <section class="page6" id="page6">
-    <img src="attic.jpg" id="attic">
+  <section class="page6" onclick="document.getElementById('page7').scrollIntoView({behavior: 'smooth'});" id="page6">
+    <img src="resorces/attic.jpg" id="attic1">
+    <img src="resorces/attic_red.jpg" id="attic2">
     <p id="page6Text">
       Uppe på vinden finns mycket gammalt bråte. Där går det bra att gömma sig.
       Tror du det finns någon här?
@@ -74,28 +75,25 @@
       där inne?
     </p>
   </section>
-  <section class="page7" id="page7">
-    <img src="resorces/bedroom.jpg" id="bedroom1">
-    <img src="resorces/bedroom_color.jpg" id="bedroom2">
-    <img src="resorces/bedroom_color_red.jpg" id="bedroom3">
-    <p id="page4Text">
-      Någon har ställt till en väldig röra på golvet – han har dragit ner en
-      blomkruka så att den har gått i tusen bitar. –Nej, nu måste vi snart ha
-      fatt på honom. Upp för en trappa till – raska på!
-      Vi följer den röda tråden in under sängen i sängkammaren, och när vi
-      kommer ut på andra sidan – vad tror du vi får se?
+  <section class="page7" onclick="document.getElementById('page8').scrollIntoView({behavior: 'smooth'});" id="page7">
+    <img src="resorces/cabinet.jpg" id="cabinet1">
+    <img src="resorces/keyhole.jpg" id="cabinet2">
+    <img src="resorces/cabinet_open.jpg" id="cabinet3">
+    <p id="page7Text">
+      Uppe på vinden finns mycket gammalt bråte. Där går det bra att gömma sig.
+      Tror du det finns någon här?
+      Men ulltråden går in i det fina skåpet. Kanske den vi söker efter finns
+      där inne?
     </p>
   </section>
-  <section class="page8" id="page8">
-    <img src="resorces/bedroom.jpg" id="bedroom1">
-    <img src="resorces/bedroom_color.jpg" id="bedroom2">
-    <img src="resorces/bedroom_color_red.jpg" id="bedroom3">
-    <p id="page4Text">
-      Någon har ställt till en väldig röra på golvet – han har dragit ner en
-      blomkruka så att den har gått i tusen bitar. –Nej, nu måste vi snart ha
-      fatt på honom. Upp för en trappa till – raska på!
-      Vi följer den röda tråden in under sängen i sängkammaren, och när vi
-      kommer ut på andra sidan – vad tror du vi får se?
+  <section class="page8" onclick="document.getElementById('page1').scrollIntoView({behavior: 'smooth'});" id="page8">
+    <img src="resorces/vase_empty.jpg" id="vase1">
+    <img src="resorces/vase_out.jpg" id="vase2">
+    <p id="page7Text">
+      Uppe på vinden finns mycket gammalt bråte. Där går det bra att gömma sig.
+      Tror du det finns någon här?
+      Men ulltråden går in i det fina skåpet. Kanske den vi söker efter finns
+      där inne?
     </p>
   </section>
 </body>
