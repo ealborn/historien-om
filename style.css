@@ -246,7 +246,7 @@ p{
   position: absolute;
   z-index: 1;
   opacity: 1;
-
+  transition: 1s;
 }
 #vase2{
   opacity: 1;
