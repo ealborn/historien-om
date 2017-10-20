@@ -7,6 +7,9 @@
   <title>Historien om någon</title>
 </head>
 <body class="container">
+  <section class="startPage" onclick="document.getElementById('page1').scrollIntoView({behavior: 'smooth'});" id="startPage">
+    <img src="resorces/start.gif" id="start1">
+  </section>
   <section class="page1" onclick="document.getElementById('page2').scrollIntoView({behavior: 'smooth'});" id="page1">
     <img src="resorces/hall.jpg" id="hall1">
     <img src="resorces/hallopen.jpg" id="hall2">
@@ -86,7 +89,7 @@
       där inne?
     </p>
   </section>
-  <section class="page8" onclick="document.getElementById('page1').scrollIntoView({behavior: 'smooth'});" id="page8">
+  <section class="page8" onclick="show_cockie()" id="page8">
     <img src="resorces/vase_empty.jpg" id="vase1">
     <img src="resorces/vase_out.jpg" id="vase2">
     <p id="page7Text">
@@ -98,3 +101,4 @@
   </section>
 </body>
 </html>
+<!-- document.getElementById('vase1').style.opacity = 0;-->
