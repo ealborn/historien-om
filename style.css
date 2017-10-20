@@ -4,22 +4,7 @@
   max-width: 100vW;
   background-color: #F0F0F0;
 }
-
-p{
-  font-family: "Chalkduster", "Handlee", fantasy, sans-serif;
-  padding: 3vh;
-  text-align: center;
-  font-size: 2.2vh;
-  width: 90vh;
-}
-
-.startPage{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
-.page1{
+section{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,39 +12,15 @@ p{
 }
 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 65vh;
-}
-.page2 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 65vh;
-}
-.page3 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 65vh;
-}
-.page4 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-    max-height: 65vh;
-}
-.page5 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
   max-height: 65vh;
+  max-width: 90vw;
 }
-.page6 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 65vh;
-}
-.page7 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 65vh;
-}
-.page8 img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 65vh;
-}
-.startPage img{
-  box-shadow: 1vh 1vh 1vh 1vh #888888;
-  max-height: 65vh;
+p{
+  font-family: "Chalkduster", "Handlee", fantasy, sans-serif;
+  padding: 3vh;
+  text-align: center;
+  font-size: 2.2vh;
+  width: 90vh;
 }
 #hall1{
   position: absolute;
@@ -71,12 +32,6 @@ img{
 }
 #hall2{
   z-index: 0;
-}
-.page2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
 }
 #livingroom1{
   position: absolute;
@@ -93,12 +48,6 @@ img{
   0%{opacity: 1;}
   50%{opacity: 0;}
   100%{opacity: 1;}
-}
-.page3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
 }
 #kitchen1{
   position: absolute;
@@ -141,12 +90,6 @@ img{
   66%{opacity: 1;}
   100%{opacity: 0;}
 }
-.page4{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
 #upper_hall1{
   position: absolute;
   z-index: 1;
@@ -158,12 +101,6 @@ img{
 #upper_hall2{
   z-index: 0;
   position: relative;
-}
-.page5{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
 }
 #bedroom1{
   position: absolute;
@@ -188,12 +125,6 @@ img{
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
-.page6{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-}
 #attic1{
   position: absolute;
   z-index: 1;
@@ -204,12 +135,6 @@ img{
 }
 #attic2{
   z-index: 0;
-}
-.page7{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
 }
 #cabinet1{
   position: absolute;
@@ -233,12 +158,6 @@ img{
   animation-name: getRedYarn;
   animation-duration: 6s;
   animation-iteration-count: infinite;
-}
-.page8{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
 }
 #vase1{
   position: absolute;
