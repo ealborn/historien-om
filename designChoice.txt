@@ -1,0 +1,5 @@
+
+Fonts: "Chalkduster", "Handlee", fantasy, sans-serif;
+BackupFonts:
+Sidlayout: Fotoalbumskänsla, med händelselös omgivning för att rikta focus emot bilderna och texten.
+Lätt manuvrering med click och delay för att få en uppfattning om vart man scrollar.
