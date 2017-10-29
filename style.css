@@ -10,6 +10,10 @@ section{
   align-items: center;
   height: 100vh;
 }
+#startText{
+  padding: 3vh;
+  margin: 4vh;
+}
 img{
   box-shadow: 1vh 1vh 1vh 1vh #888888;
   max-height: 65vh;
